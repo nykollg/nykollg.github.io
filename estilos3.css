@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(214, 188, 221);
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid #c18bc3;
+    text-align: left;
+}
+th{
+    background-color: #85257d;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+form input{
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+

@@ -7,28 +7,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi primera pagina</title>
+    <title>Mi primera pagina</title>
     <link rel="stylesheet" href="estilos.css">
     
 </head>
 <body>
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hXKKuq_D0ss?si=5hn71RW4gVm0o0nK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div class="mapa"><!--index es para anexar otra página-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31673.143323997687!2d-73.12093405!3d7.109431399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683fda29de85d9%3A0x307c520ff61a2c2a!2sHomecenter%20(45th%20Street)!5e0!3m2!1sen!2sco!4v1755876707655!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+<div>
     <div class="caja"> 
-         <h1>mi primer título</h1>
+        <h1>mi primer título</h1>
         <h2>mi segundo título</h2>
         <h3 class="primaria"> mi tercer título</h3>
     </div>
     <h4 class="primaria">mi cuarto título</h4>
+
     <div id="primer">
-      
-        <h5 class="primaria">mi quinto título</h5>
+      <h5 class="primaria">mi quinto título</h5>
+
     </div>
-    <h6 class="primaria">mi sexto título</h6>
-    <p>nuestro primer párrafo</p>
-    <img src="photo.jpg" alt="imagen" /> 
+        <h6 class="primaria">mi sexto título</h6>
+        <p>nuestro primer párrafo</p>
+        <img src="photo.jpg" alt="imagen" /> 
     <div class="contenedor">  <a href="productos.html"> productos</a> 
        <div class="caja1"> <a href="contactenos.html">contáctenos</a></div>
        <div class="caja2"><a href="contactenos.html" target="_blank" rel="noopener noreferrer">contactenos</a></div> 
     </div>
+    <canvas id="miCanvas" width="200" height="100"></canvas>
 
+    <script>  <!--operaciones matemáticas-->
+    const canvas = document.getElementById("miCanvas");
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "blue";
+    ctx.fillRect(10, 10, 150, 80);
+    </script>
+    
+</div>   
 </body>
 </html>
