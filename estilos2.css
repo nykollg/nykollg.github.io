@@ -1,18 +1,37 @@
 body{
     background-color: rgb(155, 198, 200);
 }
-h1{
+h1:hover{
     color: rgb(17, 115, 119);
+    background-color: rgb(114, 180, 182);
+    animation: mover 3s;
+}
+@keyframes mover {
+    0% {transform: translateX(0); }
+    50% {transform: translateY(50px);}
+    100% {transform: translateX(100px);}
 }
 p{
     color: rgb(45, 128, 131);
 }
-#mitad{
+#mitad:hover{
     width: 200px;
     height: 200px;
     margin: 10px;
     padding: 5px;
     border: 10px double rgb(27, 72, 111);
+    animation: girar 3s;
+}
+@keyframes girar {
+    0% {transform: rotate(0deg); }
+    50% {transform: rotate(50deg);}
+    100% {transform: rotate(100deg);}
+}
+@media(max-width: 600px){
+    .contenedor {
+        flex-direction: column;
+        width: 80%;
+    }
 }
 .grid-container{
     display: grid;

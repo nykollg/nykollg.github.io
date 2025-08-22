@@ -17,26 +17,35 @@ p{
     padding: 50px;
     border: 10px double rgb(140, 39, 151);
 }
+h5{
+    color: rgb(156, 29, 126);
+    background-color: rgb(211, 136, 193);
+}
 #primer{
-    width: 50px;
-    height: 30px;
-    margin: 40px;
-    padding: 10rex;
-    border: 2cqmax solid violet; }
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    padding: 60px;
+    border: 5px solid violet; }
 .caja1:hover{ width: 80px;
     height: 20px;
     margin: 20px;
     padding: 10px;
     border: 5px solid rgb(140, 39, 151);}
+ 
+.caja2:hover:hover{ width: 80px;
+    height: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid rgb(140, 39, 151);}
 .contenedor{
     display: flow-root;
 }
-.grid-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-}
-.grid-item{
-    background-color: blue;
-    padding: 20px;
-}
+
+.roboto-condensed-<uniquifier> {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
